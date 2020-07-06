@@ -3,7 +3,7 @@ KATA: Multiply
 
 INSTRUCTIONS: The code does not execute properly. Try to figure out why.
 */
-function multiply(a, b){
+function multiply(a, b) {
  return a * b;
 }
 
@@ -21,7 +21,7 @@ KATA: String repeat
 
 INSTRUCTIONS: Write a function called repeatString which repeats the given String src exactly count times.
 */
-function repeatStr (n, s) {
+function repeatStr(n, s) {
   return s.repeat(n);
 }
 
@@ -38,7 +38,7 @@ function makeNegative(num) {
 KATA: Convert boolean values to strings 'Yes' or 'No'.
 INSTRUCTIONS: Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 */
-function boolToWord( bool ){
+function boolToWord(bool) {
   return bool ? "Yes" : "No";
 }
 
@@ -58,9 +58,9 @@ KATA: Remove First and Last Character
 INSTRUCTIONS: It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string.
 You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
 */
-function removeChar(str){
+function removeChar(str) {
  return str.slice(1, -1);
-};
+}
 
 /*
 KATA: Opposite number
